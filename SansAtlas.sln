@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{170EAE52-10FD-4349-931B-6B48480DAF4E}"
+	ProjectSection(SolutionItems) = preProject
+		Build\SansAtlas.NuGet.xml = Build\SansAtlas.NuGet.xml
+		Build\SansAtlas.nuspec = Build\SansAtlas.nuspec
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SansAtlas", "src\SansAtlas\SansAtlas.csproj", "{1D9B09E4-ADBC-4B17-A206-499AA774D0BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Codehouse_Debug|Any CPU = Codehouse_Debug|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D9B09E4-ADBC-4B17-A206-499AA774D0BC}.Codehouse_Debug|Any CPU.ActiveCfg = Codehouse_Debug|Any CPU
+		{1D9B09E4-ADBC-4B17-A206-499AA774D0BC}.Codehouse_Debug|Any CPU.Build.0 = Codehouse_Debug|Any CPU
+		{1D9B09E4-ADBC-4B17-A206-499AA774D0BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D9B09E4-ADBC-4B17-A206-499AA774D0BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D9B09E4-ADBC-4B17-A206-499AA774D0BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D9B09E4-ADBC-4B17-A206-499AA774D0BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA784F3F-D6D5-4865-B25C-731AC93C1E27}
+	EndGlobalSection
+EndGlobal
